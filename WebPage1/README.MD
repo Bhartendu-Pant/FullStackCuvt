@@ -6,5 +6,6 @@
 
 
 #LANDING PAGE FOR SMALLER DEVICES
+</br>
 ![image](https://github.com/Bhartendu-Pant/htmlcssLandingPage1/assets/81458136/965aa482-1199-4983-bf1e-a78ac07c1f2d)
 
