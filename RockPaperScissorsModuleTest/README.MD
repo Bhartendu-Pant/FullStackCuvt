@@ -1,2 +1,2 @@
 Deployment link
-Vercel : https://rock-paper-scissors-cuvt-bp.vercel.app/index.html
+Vercel : https://rock-paper-scissors-bp-cuvt.vercel.app/index.html
