@@ -80,23 +80,21 @@ function updateScores() {
     try {
         localStorage.setItem('computerScore', pcScore);
         localStorage.setItem('playerScore', playerScore);
-        userScore.innerText = playerScore;
-        computerScore.innerText = pcScore;
-        // Your code that interacts with localStorage
+       
+        
     } catch (error) {
         console.error('Error in localStorage interaction:', error);
         debugger; // This line will pause execution when the error occurs
     }
-    localStorage.setItem('computerScore', pcScore);
-    localStorage.setItem('playerScore', playerScore);
-    userScore.innerText = playerScore;
-    computerScore.innerText = pcScore;
+   
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     try{
         pcScore = parseInt(localStorage.getItem('computerScore')) || 0;
     playerScore = parseInt(localStorage.getItem('playerScore')) || 0;
+     userScore.innerText = playerScore;
+        computerScore.innerText = pcScore;
     updateScores();
     }catch(error){
         console.error('Error in localStorage interaction:',error);
